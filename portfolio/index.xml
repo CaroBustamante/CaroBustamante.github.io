@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Carolina Bustamante</title>
+    <link>/portfolio/</link>
+    <description>Recent content in Portfolios on Carolina Bustamante</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Mar 2020 20:53:42 +0530</lastBuildDate>
+    
+	<atom:link href="/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Intertwined</title>
+      <link>/portfolio/work1/</link>
+      <pubDate>Fri, 20 Mar 2020 19:41:01 +0530</pubDate>
+      
+      <guid>/portfolio/work1/</guid>
+      <description>&lt;h4 id=&#34;detalles&#34;&gt;Detalles&lt;/h4&gt;
+&lt;p&gt;La forma en que &lt;strong&gt;el plano7 de luz&lt;/strong&gt; se entrecruza las tiras de papel me cautivo. Si se pone mayor atención a los detalles se puede percibir varios tonos de grises y formas que se asemejan a objetos u elementos existentes.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, en la inferior central es donde más se concentró mi atención al reconocer un rostro de gato tipo “&lt;em&gt;Alicia en el país de las maravillas&lt;/em&gt;”.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Swirl</title>
+      <link>/portfolio/work2/</link>
+      <pubDate>Fri, 20 Mar 2020 19:44:32 +0530</pubDate>
+      
+      <guid>/portfolio/work2/</guid>
+      <description>&lt;h4 id=&#34;detalles&#34;&gt;Detalles&lt;/h4&gt;
+&lt;p&gt;Elegí &lt;strong&gt;el plano3 de luz&lt;/strong&gt; no solo porque el entrecruce de papel genero diferentes tonos de grises si no que también porque a pesar de ser 3 círculos idénticos con cortes interiores diferentes (triangular, hexagonal y cuadrada) no se percibe del todo, solo da una leve percepción.&lt;/p&gt;
+&lt;p&gt;Además, mi vista quedo pegada en el Monstro del lago Ness que parece aparecer en el último circulo (esquina inferior derecha) que nada al interior de este lago circular con cortes triangulares.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wave</title>
+      <link>/portfolio/work3/</link>
+      <pubDate>Fri, 20 Mar 2020 19:50:47 +0530</pubDate>
+      
+      <guid>/portfolio/work3/</guid>
+      <description>&lt;h4 id=&#34;detalles&#34;&gt;Detalles&lt;/h4&gt;
+&lt;p&gt;En este ultimo caso, &lt;strong&gt;el plano1 de luz&lt;/strong&gt;, la similitud que tiene el plano de luz con una ola en rompimiento me cautivo ya que me da la sensación de calma tal cual, como el mar, incluso en su estado más agresivo, lo encuentro armónico.&lt;/p&gt;
+&lt;p&gt;La forma que tomo al poner alambres de cierta forma doblados en cada extremo me ayudo para obtener la imagen obtenida, además claro del enganche que realice al cartón para poder tener la libertad de que con una sola mano mover el papel cortado.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo tutorial</title>
+      <link>/portfolio/work5/</link>
+      <pubDate>Tue, 24 Mar 2020 20:53:42 +0530</pubDate>
+      
+      <guid>/portfolio/work5/</guid>
+      <description>INSTALACION DE HUGO  • Crearse una cuenta en GitHub (https://github.com/join?source=enterprise-plan-cloud). Si ya tiene una cuenta, asegurarse de que aún tiene acceso.
+• Descargar los siguientes archivos en su computador (Hugo + Visual Studio)
+MAC  Instalar Visual Studio https://code.visualstudio.com/download Instalar Homebrew https://brew.sh/index_es Abrir terminal.app (se encuentra en la carpeta de aplicaciones/utilidades) También pueden usar la combinación ⌘+Espacio y teclear la palabra “terminal” y presionar enter. Pegar el código: /bin/bash -c &amp;ldquo;$(curl -fsSL https://raw.</description>
+    </item>
+    
+    <item>
+      <title>Grilla</title>
+      <link>/portfolio/work4/</link>
+      <pubDate>Tue, 24 Mar 2020 19:56:17 +0530</pubDate>
+      
+      <guid>/portfolio/work4/</guid>
+      <description>&lt;h4 id=&#34;detalles&#34;&gt;Detalles&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Volumen de luz&lt;/strong&gt; hecho a travez de papel vegetal los cuales tienen dibujados 2 tipos diferentes de grillas las cuales sirvieron para cortar y dobrar diferentes formas. Los cortes se fueron repitiendo en el mismo papel de forma sistematica.&lt;/p&gt;
+&lt;p&gt;Los dobleces del papel cortado sirvio para obtener diferentes tonos de grises.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
