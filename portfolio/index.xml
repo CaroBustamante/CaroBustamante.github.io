@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Carolina Bustamante</title>
-    <link>/</link>
-    <description>Recent content on Carolina Bustamante</description>
+    <title>Portfolios on Carolina Bustamante</title>
+    <link>/portfolio/</link>
+    <description>Recent content in Portfolios on Carolina Bustamante</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Mar 2020 20:53:42 +0530</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
