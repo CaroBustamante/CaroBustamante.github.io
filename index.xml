@@ -1,78 +1,141 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Carolina Bustamante</title>
+    <title>DigitalGLobal</title>
     <link>/</link>
-    <description>Recent content on Carolina Bustamante</description>
+    <description>Recent content on DigitalGLobal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Mar 2020 20:53:42 +0530</lastBuildDate>
+    <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 23 Mar 2020 13:05:29 +0600</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hugo tutorial</title>
-      <link>/portfolio/work5/</link>
-      <pubDate>Tue, 24 Mar 2020 20:53:42 +0530</pubDate>
+      <title>How To Wear Bright Shoes</title>
+      <link>/blog/blog-post-1/</link>
+      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>/portfolio/work5/</guid>
-      <description>&lt;blockquote&gt;
-&lt;h4 id=&#34;instalacion-de-hugo&#34;&gt;INSTALACION DE HUGO&lt;/h4&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;• Crearse una cuenta en GitHub (&lt;a href=&#34;https://github.com/join?source=enterprise-plan-cloud)&#34;&gt;https://github.com/join?source=enterprise-plan-cloud)&lt;/a&gt;. Si ya tiene una cuenta, asegurarse de que aún tiene acceso.&lt;/p&gt;
-&lt;p&gt;• Descargar los siguientes archivos en su computador (Hugo + Visual Studio)&lt;/p&gt;</description>
+      <guid>/blog/blog-post-1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
     </item>
     
     <item>
-      <title>Movilidad</title>
-      <link>/portfolio/work6/</link>
-      <pubDate>Tue, 24 Mar 2020 20:53:42 +0530</pubDate>
+      <title>How To Wear Bright Shoes</title>
+      <link>/blog/blog-post-2/</link>
+      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>/portfolio/work6/</guid>
-      <description>&lt;p&gt;Los referentes de movilidad se usaran para comenzar a plantear el tema específico que desarrollare como proyecto pensando la movilidad del futuro en base a las alteraciones que ha generado el COVID19 a nuestro modo de vida contemporánea.&lt;/p&gt;
-&lt;p&gt;Plantearse preguntas de cómo se podría abordarse la problemática de la movilidad, en el amplio sentido Pensando en escenarios de emergencia como los que vivimos hoy en día. (La cadena logística para el abastecimiento/Los vehículos para una nueva movilidad/Como serian las relaciones sociales)&lt;/p&gt;</description>
+      <guid>/blog/blog-post-2/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
     </item>
     
     <item>
-      <title>Wave</title>
-      <link>/portfolio/work3/</link>
-      <pubDate>Fri, 20 Mar 2020 19:50:47 +0530</pubDate>
+      <title>How To Wear Bright Shoes</title>
+      <link>/blog/blog-post-3/</link>
+      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>/portfolio/work3/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../../img/post/tecnico1.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;En este ultimo caso, &lt;strong&gt;el plano1 de luz&lt;/strong&gt;, la similitud que tiene el plano de luz con una ola en rompimiento me cautivo ya que me da la sensación de calma tal cual, como el mar, incluso en su estado más agresivo, lo encuentro armónico.&lt;/p&gt;</description>
+      <guid>/blog/blog-post-3/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
     </item>
     
     <item>
-      <title>Swirl</title>
-      <link>/portfolio/work2/</link>
-      <pubDate>Fri, 20 Mar 2020 19:44:32 +0530</pubDate>
+      <title>How To Wear Bright Shoes</title>
+      <link>/blog/blog-post-4/</link>
+      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>/portfolio/work2/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../../img/post/tecnico3.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;El plano3 de luz&lt;/strong&gt; busca crear diferentes tonalidades y percepciones de luces/sombras no solo con el entrecruce de papel si no que también aplicando en los 3 círculos idénticos diferentes cortes interiores (triangular, hexagonal y cuadrada).&lt;/p&gt;
-&lt;h4 id=&#34;heading&#34;&gt;&lt;/h4&gt;</description>
+      <guid>/blog/blog-post-4/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
     </item>
     
     <item>
-      <title>Intertwined</title>
-      <link>/portfolio/work1/</link>
-      <pubDate>Fri, 20 Mar 2020 19:41:01 +0530</pubDate>
+      <title>How To Wear Bright Shoes</title>
+      <link>/blog/blog-post-5/</link>
+      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>/portfolio/work1/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../../img/post/tecnico7.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
-&lt;p&gt;La forma en que &lt;strong&gt;el plano7 de luz&lt;/strong&gt; se entrecruza las tiras de papel me cautivo. Si se pone mayor atención a los detalles se puede percibir varios tonos de grises y formas que se asemejan a objetos u elementos existentes.&lt;/p&gt;</description>
+      <guid>/blog/blog-post-5/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
     </item>
     
     <item>
-      <title>Grid</title>
-      <link>/portfolio/work4/</link>
-      <pubDate>Tue, 24 Mar 2020 19:56:17 +0530</pubDate>
+      <title>How To Wear Bright Shoes</title>
+      <link>/blog/blog-post-6/</link>
+      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>/portfolio/work4/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Volumen de luz&lt;/strong&gt; hecho a travez de papel vegetal los cuales tienen dibujados 2 tipos diferentes de grillas las cuales sirvieron para cortar y dobrar diferentes formas. Los cortes se fueron repitiendo en el mismo papel de forma sistematica. }
-Los dobleces del papel cortado sirvio para obtener diferentes tonos de grises al igual que el trazado con el lapiz tinta para generar tonos más oscuros.&lt;/p&gt;</description>
+      <guid>/blog/blog-post-6/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
+    </item>
+    
+    <item>
+      <title>John Doe</title>
+      <link>/author/john-doe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/author/john-doe/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet. Donec nisi dolor, consequat vel pretium id, auctor in dui.</description>
+    </item>
+    
+    <item>
+      <title>Mark Dinn</title>
+      <link>/author/mark-dinn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/author/mark-dinn/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet. Donec nisi dolor, consequat vel pretium id, auctor in dui.</description>
+    </item>
+    
+    <item>
+      <title>Rio Furniture</title>
+      <link>/project/rio-furniture-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rio-furniture-1/</guid>
+      <description>Behance Website Redesign Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas. Tempora modi amet voluptate at provident soluta consequatur.</description>
+    </item>
+    
+    <item>
+      <title>Rio Furniture</title>
+      <link>/project/rio-furniture-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rio-furniture-2/</guid>
+      <description>Behance Website Redesign Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas. Tempora modi amet voluptate at provident soluta consequatur.</description>
+    </item>
+    
+    <item>
+      <title>Rio Furniture</title>
+      <link>/project/rio-furniture-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rio-furniture-3/</guid>
+      <description>Behance Website Redesign Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas. Tempora modi amet voluptate at provident soluta consequatur.</description>
+    </item>
+    
+    <item>
+      <title>Rio Furniture</title>
+      <link>/project/rio-furniture-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rio-furniture-4/</guid>
+      <description>Behance Website Redesign Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas. Tempora modi amet voluptate at provident soluta consequatur.</description>
+    </item>
+    
+    <item>
+      <title>Rio Furniture</title>
+      <link>/project/rio-furniture-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rio-furniture-5/</guid>
+      <description>Behance Website Redesign Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas. Tempora modi amet voluptate at provident soluta consequatur.</description>
+    </item>
+    
+    <item>
+      <title>Rio Furniture</title>
+      <link>/project/rio-furniture-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rio-furniture-6/</guid>
+      <description>Behance Website Redesign Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas. Tempora modi amet voluptate at provident soluta consequatur.</description>
     </item>
     
   </channel>
