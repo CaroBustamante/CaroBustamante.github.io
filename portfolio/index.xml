@@ -6,18 +6,27 @@
     <description>Recent content in Portfolios on Carolina Bustamante</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Apr 2020 02:53:42 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2020 02:53:42 +0530</lastBuildDate>
     
 	<atom:link href="/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Wearable COVID-19</title>
+      <title>Propuesta Wearable-Covid-19</title>
+      <link>/portfolio/work10/</link>
+      <pubDate>Sun, 19 Apr 2020 02:53:42 +0530</pubDate>
+      
+      <guid>/portfolio/work10/</guid>
+      <description>&lt;p&gt;Diseño de Wearables para sobrevivir en escenarios perjudiciales para la salud.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Investigación Covid-19</title>
       <link>/portfolio/work9/</link>
       <pubDate>Wed, 15 Apr 2020 02:53:42 +0530</pubDate>
       
       <guid>/portfolio/work9/</guid>
-      <description>&lt;p&gt;Diseño de Wearables para sobrevivir en escenarios perjudiciales para la salud.(deteccion temprana wearable o mix/ real linea de tiempo)&lt;/p&gt;</description>
+      <description>&lt;p&gt;Diseño de Wearables para sobrevivir en escenarios perjudiciales para la salud.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -38,7 +47,7 @@ Aqui encontraran los archivos bases y los pasos a seguir para lograr este proyec
       
       <guid>/portfolio/work7/</guid>
       <description>&lt;p&gt;Como producir un objeto u producto de la forma más optimizada y que a sus vez genera una imagen limpia y cautivadora para el publico.&lt;/p&gt;
-&lt;p&gt;Hoy les enseñare a usar el programa &lt;strong&gt;Tinkercad circuitos&lt;/strong&gt; para lograr un circucito de ________&lt;/p&gt;</description>
+&lt;p&gt;Hoy les enseñare a usar el programa &lt;strong&gt;Tinkercad circuitos&lt;/strong&gt; para lograr un circucito con arduino incluyendo el codigo.&lt;/p&gt;</description>
     </item>
     
     <item>
