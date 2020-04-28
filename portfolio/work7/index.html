@@ -136,7 +136,102 @@
 </div>
 
 <p><img src="../../img/post/comandos.png" alt="image"></p>
-<h5 id="video-para-codificar-con-arduino-en-proceso">video para codificar con Arduino en proceso</h5>
+<h4 id="proyecto-theremin">Proyecto theremin</h4>
+<p><img src="../../img/post/theremin.png" alt="image"></p>
+<pre><code>    #include  &lt;LiquidCrystal.h&gt;
+    #define minimo 2
+    #define maximo 326
+    #define frec_min 400
+    #define frec_max 550
+    const int pinecho = 7; //definimos los pines a los que se conectaran
+    const int pintrigger = 6;
+    const int pinled = 13;
+    const int buzzer = 9;
+    
+    // PANTALLA LCD 16X2
+    // AQUI SE CONFIGURAN LOS PINES PARA LA COMUNICACION CON LA PANTALLA
+    LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+    
+    // VARIABLES PARA CALCULOS
+    unsigned int tiempo, distancia;
+    
+    void setup() {
+    // PREPARAR LA COMUNICACION SERIAL
+    Serial.begin(9600);
+    // INDICAMOS QUE TENEMOS CONECTADA UNA PANTALLA DE 16X2
+    lcd.begin(16, 2);
+    // MOVER EL CURSOR A LA PRIMERA POSICION DE LA PANTALLA (0, 0)
+    lcd.home();
+    
+    // CONFIGURAR PINES DE ENTRADA Y SALIDA
+    pinMode(pinecho, INPUT);
+    pinMode(pintrigger, OUTPUT);
+    pinMode(13, OUTPUT);
+    }
+    
+    void loop() {
+    // ENVIAR PULSO DE DISPARO EN EL PIN &quot;TRIGGER&quot;
+    digitalWrite(pintrigger, LOW);
+    delayMicroseconds(2);
+    digitalWrite(pintrigger, HIGH);
+    // EL PULSO DURA AL MENOS 10 uS EN ESTADO ALTO
+    delayMicroseconds(10);
+    digitalWrite(pintrigger, LOW);
+    
+    // MEDIR EL TIEMPO EN ESTADO ALTO DEL PIN &quot;ECHO&quot; EL PULSO ES PROPORCIONAL A LA DISTANCIA MEDIDA
+    tiempo = pulseIn(pinecho, HIGH);
+    
+    // LA VELOCIDAD DEL SONIDO ES DE 340 M/S O 29 MICROSEGUNDOS POR CENTIMETRO
+    // DIVIDIMOS EL TIEMPO DEL PULSO ENTRE 58, TIEMPO QUE TARDA RECORRER IDA Y VUELTA UN CENTIMETRO LA ONDA SONORA
+    distancia = tiempo / 58;
+    Serial.print(distancia);
+    float a =  map(distancia, minimo, maximo, frec_min, frec_max);
+    tone(buzzer,a);
+    Serial.println(&quot; cm&quot;);
+    //Serial.println(a);
+    delay(200);
+    LCDNote(distancia);
+    }
+
+    void LCDNote(int dist)
+    {
+    lcd.clear();
+    if ( 2 &lt;= distancia &amp;&amp; distancia &lt;=48 )
+    {
+        lcd.print(&quot;DO&quot;);
+    }
+    if ( 49 &lt;= distancia &amp;&amp; distancia &lt;= 95)
+    {
+        lcd.print(&quot;RE&quot;);
+    }
+    
+    if ( 96 &lt;= distancia &amp;&amp; distancia &lt;= 142)
+    {
+        lcd.print(&quot;MI&quot;);
+    }
+    
+    if ( 143 &lt;= distancia &amp;&amp; distancia &lt;= 189)
+    {
+        lcd.print(&quot;FA&quot;);
+    }
+    
+    if ( 190 &lt;= distancia &amp;&amp; distancia &lt;= 236)
+    {
+        lcd.print(&quot;SOL&quot;);
+    }
+    
+    if ( 237 &lt;= distancia &amp;&amp; distancia &lt;= 283)
+    {
+        lcd.print(&quot;LA&quot;);
+    }
+    
+    if ( 284 &lt;= distancia &amp;&amp; distancia &lt;= 326)
+    {
+        lcd.print(&quot;SI&quot;);
+    }
+    }
+</code></pre>
+<p><a href="https://carobustamante.github.io/files/theremin.ino">Codigo arduino</a> - Descargar archivo</p>
          
       </div>
     </div>
