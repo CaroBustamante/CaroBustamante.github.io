@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+
 <html lang="en-us">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Swirl</title>
+<title>Tinkercad circuitos</title>
 <meta name="description" content="Describe your website">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
@@ -28,6 +28,7 @@
 
 <link href="/css/custom.css" rel="stylesheet">
 <link rel="shortcut icon" href="/img/favicon.png">
+<link rel="shortcut icon" type="image/png" href="favicon.png">
 
 
 </head>
@@ -39,17 +40,17 @@
   <div class="sidebar-content">
     <h1 class="sidebar-heading"><a href="/">Carolina Bustamante</a></h1>
     
-      <p class="sidebar-p">Ingeniera en diseño de la Universidad Adolfo Ibáñez, Santiago.</p>
-    
       <p class="sidebar-p">Diseño de objetos y productos</p>
+    
+      <p class="sidebar-p">Cualquier momento es bueno para aprender algo nuevo, Albert Einstein</p>
     
     <ul class="sidebar-menu">
       
-        <li><a href="/portfolio/">Inicio</a></li>
+        <li><a href="/portfolio">Inicio</a></li>
       
-        <li><a href="/about/">Sobre mi</a></li>
+        <li><a href="/about">Sobre mi</a></li>
       
-        <li><a href="/contact/">Contacto</a></li>
+        <li><a href="/contact">Contacto</a></li>
       
     </ul>
     <p class="social">
@@ -122,15 +123,118 @@
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1>Swirl</h1>
-         <p><img src="../../img/post/tecnico3.jpg" alt="image"></p>
-<p><strong>El plano3 de luz</strong> busca crear diferentes tonalidades y percepciones de luces/sombras no solo con el entrecruce de papel si no que también aplicando en los 3 círculos idénticos diferentes cortes interiores (triangular, hexagonal y cuadrada).</p>
-<h4 id="heading"></h4>
-<p><img src="../../img/post/swirl.jpg" alt="image"></p>
-<blockquote>
-<p>Además, se puede percibir diferentes figuras que se podrían asociar a elementos existes o conocidos con anterioridad como es mi caso con &ldquo;el Monstro del lago Ness&rdquo; que parece aparecer en el último circulo (esquina inferior derecha) que nada al interior de este lago circular con cortes triangulares.</p>
-</blockquote>
-<p><img src="../../img/post/fotosswirl.jpg" alt="image"></p>
+         <h1>Tinkercad circuitos</h1>
+         <p>Como producir un objeto u producto de la forma más optimizada y que a sus vez genera una imagen limpia y cautivadora para el publico.</p>
+<p>Hoy les enseñare a usar el programa <strong>Tinkercad circuitos</strong> para lograr un circucito con arduino incluyendo el codigo.</p>
+<h4 id="tinkercad-circuit-autodeskhttpswwwtinkercadcomcircuits"><a href="https://www.tinkercad.com/circuits">Tinkercad Circuit Autodesk</a></h4>
+<p>• <strong>Detalles</strong> -&gt; Tinkercad es una herramienta online ofrecida por Autodesk. De entre sus utilidades probablemente la más conocida es la de diseñar piezas en 3D pero también cuenta con la posibilidad de montar, programar y simular circuitos con Arduino.                           <br>
+• <strong>Historia</strong> -&gt; Esta disponible desde 2011, se ha convertido en una plataforma popular para crear modelos para impresión 3D.              <br>
+• <a href="https://accounts.autodesk.com/register?viewmode=iframe&amp;ReturnUrl=%2Fauthorize%3Fviewmode%3Diframe%26lang%3Den%26realm%3Ddownload-latinoamerica.autodesk.com%26ctx%3Dadsk-download-la%26AuthKey%3D1801d9b7-d7ce-423b-bafd-a6153c4a654a"><strong>Instalación</strong></a> -&gt; Se utiliza de forma gratuita y sólo requiere crearse una cuenta de usuario. Se puede usar también de forma online.     <br>
+• <strong>Cualidades</strong> -&gt; cuenta con una amplia biblioteca de componentes y placas de Arduino. Permite simular el funcionamiento de los circuitos creados e incluso exportar o importar el Código de dicha construcción.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/ZcbvvN9Fzvo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h4 id="comandos-basicos">Comandos basicos</h4>
+<p><img src="../../img/post/comandos.png" alt="image"></p>
+<h4 id="proyecto-theremin">Proyecto theremin</h4>
+<p><img src="../../img/post/theremin-con-pantalla.png" alt="image"></p>
+<pre><code>    #include  &lt;LiquidCrystal.h&gt;
+    #define minimo 2
+    #define maximo 326
+    #define frec_min 400
+    #define frec_max 550
+    const int pinecho = 7; //definimos los pines a los que se conectaran
+    const int pintrigger = 6;
+    const int pinled = 13;
+    const int buzzer = 9;
+    
+    // PANTALLA LCD 16X2
+    // AQUI SE CONFIGURAN LOS PINES PARA LA COMUNICACION CON LA PANTALLA
+    LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+    
+    // VARIABLES PARA CALCULOS
+    unsigned int tiempo, distancia;
+    
+    void setup() {
+    // PREPARAR LA COMUNICACION SERIAL
+    Serial.begin(9600);
+    // INDICAMOS QUE TENEMOS CONECTADA UNA PANTALLA DE 16X2
+    lcd.begin(16, 2);
+    // MOVER EL CURSOR A LA PRIMERA POSICION DE LA PANTALLA (0, 0)
+    lcd.home();
+    
+    // CONFIGURAR PINES DE ENTRADA Y SALIDA
+    pinMode(pinecho, INPUT);
+    pinMode(pintrigger, OUTPUT);
+    pinMode(13, OUTPUT);
+    }
+    
+    void loop() {
+    // ENVIAR PULSO DE DISPARO EN EL PIN &quot;TRIGGER&quot;
+    digitalWrite(pintrigger, LOW);
+    delayMicroseconds(2);
+    digitalWrite(pintrigger, HIGH);
+    // EL PULSO DURA AL MENOS 10 uS EN ESTADO ALTO
+    delayMicroseconds(10);
+    digitalWrite(pintrigger, LOW);
+    
+    // MEDIR EL TIEMPO EN ESTADO ALTO DEL PIN &quot;ECHO&quot; EL PULSO ES PROPORCIONAL A LA DISTANCIA MEDIDA
+    tiempo = pulseIn(pinecho, HIGH);
+    
+    // LA VELOCIDAD DEL SONIDO ES DE 340 M/S O 29 MICROSEGUNDOS POR CENTIMETRO
+    // DIVIDIMOS EL TIEMPO DEL PULSO ENTRE 58, TIEMPO QUE TARDA RECORRER IDA Y VUELTA UN CENTIMETRO LA ONDA SONORA
+    distancia = tiempo / 58;
+    Serial.print(distancia);
+    float a =  map(distancia, minimo, maximo, frec_min, frec_max);
+    tone(buzzer,a);
+    Serial.println(&quot; cm&quot;);
+    //Serial.println(a);
+    delay(200);
+    LCDNote(distancia);
+    }
+
+    void LCDNote(int dist)
+    {
+    lcd.clear();
+    if ( 2 &lt;= distancia &amp;&amp; distancia &lt;=48 )
+    {
+        lcd.print(&quot;DO&quot;);
+    }
+    if ( 49 &lt;= distancia &amp;&amp; distancia &lt;= 95)
+    {
+        lcd.print(&quot;RE&quot;);
+    }
+    
+    if ( 96 &lt;= distancia &amp;&amp; distancia &lt;= 142)
+    {
+        lcd.print(&quot;MI&quot;);
+    }
+    
+    if ( 143 &lt;= distancia &amp;&amp; distancia &lt;= 189)
+    {
+        lcd.print(&quot;FA&quot;);
+    }
+    
+    if ( 190 &lt;= distancia &amp;&amp; distancia &lt;= 236)
+    {
+        lcd.print(&quot;SOL&quot;);
+    }
+    
+    if ( 237 &lt;= distancia &amp;&amp; distancia &lt;= 283)
+    {
+        lcd.print(&quot;LA&quot;);
+    }
+    
+    if ( 284 &lt;= distancia &amp;&amp; distancia &lt;= 326)
+    {
+        lcd.print(&quot;SI&quot;);
+    }
+    }
+</code></pre>
+<p><a href="https://carobustamante.github.io/files/theremin.ino">Codigo arduino</a> - Descargar archivo                                 <br>
+<a href="https://www.tinkercad.com/things/lMeuOejto1K-theremin-con-pantalla-httpswwwtinkercadcomthings6ppkf9kal0g/editel?sharecode=GBmlqISKypOeEk9QZc2_d881TyCeHCRajRNpgKfczPk">Circuito Theremin</a> - Clonar circuito en tinkercad</p>
          
       </div>
     </div>
