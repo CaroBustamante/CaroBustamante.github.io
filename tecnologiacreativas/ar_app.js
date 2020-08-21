@@ -7,7 +7,7 @@ var mesh1, mesh2;
 
 var markerRoot1;
 
-var RhinoMesh, RhinoMesh2, RhinoMesh3, RhinoMesh4, RhinoMesh5, RhinoMesh6;
+var RhinoMesh, RhinoMesh2, RhinoMesh6, RhinoMesh4, RhinoMesh5;
 
 init(); // llamado de la funcion principal que se encarga de hacer casi  todo en la app
 animate();
@@ -114,7 +114,7 @@ function init() {
     //Creamos nuestro marcador 
     let markerControl = new THREEx.ArMarkerControls(arToolkitContext, markerRoot1, {
 
-        type: 'pattern', patternUrl: 'data/pattern-marcadores.patt',
+        type: 'pattern', patternUrl: 'data/pattern-mr.patt',
     });
 
     /////////////////////////////////////////////////
@@ -174,12 +174,12 @@ function init() {
     //////OBJETO RHINO 1///////////////
     new THREE.MTLLoader()
         .setPath('data/models/')
-        .load('azul1.mtl', function (materials) {
+        .load('macetero.mtl', function (materials) {
             materials.preload();
             new THREE.OBJLoader()
                 .setMaterials(materials)
                 .setPath('data/models/')
-                .load('azul1.obj', function (group) {
+                .load('macetero.obj', function (group) {
                     RhinoMesh = group.children[0];
                     RhinoMesh.material.side = THREE.DoubleSide;
                     RhinoMesh.scale.set(0.25, 0.25, 0.25);
@@ -193,12 +193,12 @@ function init() {
     //////OBJETO RHINO 2///////////////
     new THREE.MTLLoader()
         .setPath('data/models/')
-        .load('azul2.mtl', function (materials) {
+        .load('tierra.mtl', function (materials) {
             materials.preload();
             new THREE.OBJLoader()
                 .setMaterials(materials)
                 .setPath('data/models/')
-                .load('azul2.obj', function (group) {
+                .load('tierra.obj', function (group) {
                     RhinoMesh2 = group.children[0];
                     RhinoMesh2.material.side = THREE.DoubleSide;
                     RhinoMesh2.scale.set(0.25, 0.25, 0.25);
@@ -209,81 +209,63 @@ function init() {
                 }, onProgress, onError);
         });
 
-   //////OBJETO RHINO 3///////////////
-   new THREE.MTLLoader()
-   .setPath('data/models/')
-   .load('azul3.mtl', function (materials) {
-       materials.preload();
-       new THREE.OBJLoader()
-           .setMaterials(materials)
-           .setPath('data/models/')
-           .load('azul3.obj', function (group) {
-               RhinoMesh3 = group.children[0];
-               RhinoMesh3.material.side = THREE.DoubleSide;
-               RhinoMesh3.scale.set(0.25, 0.25, 0.25);
-               RhinoMesh3.castShadow = true;
-               RhinoMesh3.receiveShadow = true;
+          //////OBJETO RHINO 3///////////////
+          new THREE.MTLLoader()
+          .setPath('data/models/')
+          .load('rama.mtl', function (materials) {
+              materials.preload();
+              new THREE.OBJLoader()
+                  .setMaterials(materials)
+                  .setPath('data/models/')
+                  .load('rama.obj', function (group) {
+                      RhinoMesh6 = group.children[0];
+                      RhinoMesh6.material.side = THREE.DoubleSide;
+                      RhinoMesh6.scale.set(0.25, 0.25, 0.25);
+                      RhinoMesh6.castShadow = true;
+                      RhinoMesh6.receiveShadow = true;
+      
+                      markerRoot1.add(RhinoMesh6);
+                  }, onProgress, onError);
+          });
 
-               markerRoot1.add(RhinoMesh3);
-           }, onProgress, onError);
-   });
+          //////OBJETO RHINO 4///////////////
+          new THREE.MTLLoader()
+          .setPath('data/models/')
+          .load('flor.mtl', function (materials) {
+              materials.preload();
+              new THREE.OBJLoader()
+                  .setMaterials(materials)
+                  .setPath('data/models/')
+                  .load('flor.obj', function (group) {
+                      RhinoMesh4 = group.children[0];
+                      RhinoMesh4.material.side = THREE.DoubleSide;
+                      RhinoMesh4.scale.set(0.25, 0.25, 0.25);
+                      RhinoMesh4.castShadow = true;
+                      RhinoMesh4.receiveShadow = true;
+      
+                      markerRoot1.add(RhinoMesh4);
+                  }, onProgress, onError);
+          });
 
-//////OBJETO RHINO 4///////////////
-new THREE.MTLLoader()
-   .setPath('data/models/')
-   .load('negro.mtl', function (materials) {
-       materials.preload();
-       new THREE.OBJLoader()
-           .setMaterials(materials)
-           .setPath('data/models/')
-           .load('negro.obj', function (group) {
-               RhinoMesh4 = group.children[0];
-               RhinoMesh4.material.side = THREE.DoubleSide;
-               RhinoMesh4.scale.set(0.25, 0.25, 0.25);
-               RhinoMesh4.castShadow = true;
-               RhinoMesh4.receiveShadow = true;
+                    //////OBJETO RHINO 5///////////////
+                    new THREE.MTLLoader()
+                    .setPath('data/models/')
+                    .load('mango.mtl', function (materials) {
+                        materials.preload();
+                        new THREE.OBJLoader()
+                            .setMaterials(materials)
+                            .setPath('data/models/')
+                            .load('mango.obj', function (group) {
+                                RhinoMesh5 = group.children[0];
+                                RhinoMesh5.material.side = THREE.DoubleSide;
+                                RhinoMesh5.scale.set(0.25, 0.25, 0.25);
+                                RhinoMesh5.castShadow = true;
+                                RhinoMesh5.receiveShadow = true;
+                
+                                markerRoot1.add(RhinoMesh5);
+                            }, onProgress, onError);
+                    });
 
-               markerRoot1.add(RhinoMesh4);
-           }, onProgress, onError);
-   });
-
-      //////OBJETO RHINO 5///////////////
-      new THREE.MTLLoader()
-      .setPath('data/models/')
-      .load('blanco.mtl', function (materials) {
-          materials.preload();
-          new THREE.OBJLoader()
-              .setMaterials(materials)
-              .setPath('data/models/')
-              .load('blanco.obj', function (group) {
-                  RhinoMesh5 = group.children[0];
-                  RhinoMesh5.material.side = THREE.DoubleSide;
-                  RhinoMesh5.scale.set(0.25, 0.25, 0.25);
-                  RhinoMesh5.castShadow = true;
-                  RhinoMesh5.receiveShadow = true;
-   
-                  markerRoot1.add(RhinoMesh5);
-              }, onProgress, onError);
-      });
-   
-   //////OBJETO RHINO 6///////////////
-   new THREE.MTLLoader()
-      .setPath('data/models/')
-      .load('rosa.mtl', function (materials) {
-          materials.preload();
-          new THREE.OBJLoader()
-              .setMaterials(materials)
-              .setPath('data/models/')
-              .load('rosa.obj', function (group) {
-                  RhinoMesh6 = group.children[0];
-                  RhinoMesh6.material.side = THREE.DoubleSide;
-                  RhinoMesh6.scale.set(0.25, 0.25, 0.25);
-                  RhinoMesh6.castShadow = true;
-                  RhinoMesh6.receiveShadow = true;
-   
-                  markerRoot1.add(RhinoMesh6);
-              }, onProgress, onError);
-      });
 }
 
 function update() {
