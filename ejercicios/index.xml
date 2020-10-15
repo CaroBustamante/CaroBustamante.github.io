@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ejercicios on Carolina Bustamante</title>
+    <link>/ejercicios/</link>
+    <description>Recent content in Ejercicios on Carolina Bustamante</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Mar 2015 17:53:42 +0530</lastBuildDate>
+    
+	<atom:link href="/ejercicios/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dron keyshot</title>
+      <link>/ejercicios/work4/</link>
+      <pubDate>Wed, 04 Mar 2015 17:53:42 +0530</pubDate>
+      
+      <guid>/ejercicios/work4/</guid>
+      <description>&lt;h6 id=&#34;instalación-de-pluginhttpsappsautodeskcomfusionendetailindexid3673588716432961937applangenoswin64&#34;&gt;Instalación de &lt;a href=&#34;https://apps.autodesk.com/FUSION/en/Detail/Index?id=3673588716432961937&amp;amp;appLang=en&amp;amp;os=Win64&#34;&gt;plugin&lt;/a&gt;&lt;/h6&gt;
+&lt;p&gt;Para poder enlasar KeyShot y Fusion 360™&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ferula en Fusion360</title>
+      <link>/ejercicios/work3/</link>
+      <pubDate>Tue, 03 Mar 2015 20:53:42 +0530</pubDate>
+      
+      <guid>/ejercicios/work3/</guid>
+      <description>&lt;h6 id=&#34;ejercicio-en-fusion-360&#34;&gt;Ejercicio en Fusion 360&lt;/h6&gt;
+&lt;p&gt;Modelación de una férula ergonométrica.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tinkercad circuitos</title>
+      <link>/ejercicios/work2/</link>
+      <pubDate>Mon, 02 Mar 2015 20:53:42 +0530</pubDate>
+      
+      <guid>/ejercicios/work2/</guid>
+      <description>&lt;h6 id=&#34;tinkercad-circuitos&#34;&gt;Tinkercad circuitos&lt;/h6&gt;
+&lt;p&gt;Como lograr un circucito con arduino incluyendo el codigo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo tutorial</title>
+      <link>/ejercicios/work1/</link>
+      <pubDate>Sun, 01 Mar 2015 20:53:42 +0530</pubDate>
+      
+      <guid>/ejercicios/work1/</guid>
+      <description>&lt;h6 id=&#34;paso-a-paso-con-hugo&#34;&gt;Paso a paso con hugo&lt;/h6&gt;
+&lt;p&gt;Como lograr su correcta instalación y uso&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
