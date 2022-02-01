@@ -1,198 +1,126 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>/portfolio/work33/</loc>
+    <lastmod>2020-07-08T20:53:42+05:30</lastmod>
+  </url><url>
     <loc>/portfolio/work32/</loc>
     <lastmod>2020-07-08T20:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>/portfolio/work34/</loc>
+    <lastmod>2020-07-08T20:53:42+05:30</lastmod>
+  </url><url>
     <loc>/portfolio/work31/</loc>
     <lastmod>2020-06-08T20:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work30/</loc>
     <lastmod>2020-05-15T20:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work29/</loc>
     <lastmod>2020-05-08T20:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work28/</loc>
     <lastmod>2020-05-01T20:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work27/</loc>
     <lastmod>2020-04-22T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work26/</loc>
     <lastmod>2020-01-31T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work25/</loc>
     <lastmod>2019-07-12T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work24/</loc>
     <lastmod>2019-04-12T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work23/</loc>
     <lastmod>2018-07-22T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work22/</loc>
     <lastmod>2018-07-19T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work21/</loc>
     <lastmod>2018-07-15T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work20/</loc>
     <lastmod>2018-07-10T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work19/</loc>
     <lastmod>2018-04-19T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work18/</loc>
     <lastmod>2017-08-18T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work17/</loc>
     <lastmod>2017-04-17T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work16/</loc>
     <lastmod>2017-04-16T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work15/</loc>
     <lastmod>2017-04-15T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work14/</loc>
     <lastmod>2016-07-14T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work13/</loc>
     <lastmod>2016-07-13T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work12/</loc>
     <lastmod>2016-07-12T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work11/</loc>
     <lastmod>2016-04-11T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work10/</loc>
     <lastmod>2016-04-10T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work9/</loc>
     <lastmod>2016-04-09T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work8/</loc>
     <lastmod>2016-03-07T21:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work7/</loc>
     <lastmod>2016-03-07T20:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work6/</loc>
     <lastmod>2016-03-06T19:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/work5/</loc>
     <lastmod>2016-03-06T18:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/ejercicios/work4/</loc>
     <lastmod>2015-03-04T17:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/ejercicios/work3/</loc>
     <lastmod>2015-03-03T20:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/ejercicios/work2/</loc>
     <lastmod>2015-03-02T20:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/ejercicios/work1/</loc>
     <lastmod>2015-03-01T20:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/</loc>
     <lastmod>2020-07-08T20:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/portfolio/</loc>
     <lastmod>2020-07-08T20:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/contact/</loc>
     <lastmod>2016-11-06T13:00:25+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/about/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/ejercicios/</loc>
     <lastmod>2015-03-04T17:53:42+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/</loc>
   </url>
-  
 </urlset>
